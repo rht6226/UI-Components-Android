@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxesActivity">
+
+    <TextView
+        android:id="@+id/outputView"
+        android:layout_width="346dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="44dp"
+        android:padding="@dimen/std_pd"
+        android:paddingStart="@dimen/std_pd"
+        android:paddingLeft="@dimen/std_pd"
+        android:paddingTop="@dimen/std_pd"
+        android:paddingEnd="@dimen/std_pd"
+        android:paddingRight="@dimen/std_pd"
+        android:paddingBottom="@dimen/std_pd"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/turtleCheckbox"
+        android:layout_width="172dp"
+        android:layout_height="43dp"
+        android:padding="@dimen/std_pd"
+        android:text="@string/turtle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bunnyCheckbox"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/bunnyCheckbox"
+        android:layout_width="172dp"
+        android:layout_height="43dp"
+        android:padding="@dimen/std_pd"
+        android:text="@string/bunny"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catCheckbox"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/catCheckbox"
+        android:layout_width="172dp"
+        android:layout_height="43dp"
+        android:padding="@dimen/std_pd"
+        android:text="@string/cat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dogCheckbox"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/dogCheckbox"
+        android:layout_width="172dp"
+        android:layout_height="43dp"
+        android:padding="@dimen/std_pd"
+        android:text="@string/dog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="315dp"
+        android:layout_height="83dp"
+        android:padding="@dimen/std_pd"
+        android:paddingStart="@dimen/std_pd"
+        android:paddingLeft="@dimen/std_pd"
+        android:paddingTop="@dimen/std_pd"
+        android:paddingEnd="@dimen/std_pd"
+        android:paddingRight="@dimen/std_pd"
+        android:paddingBottom="@dimen/std_pd"
+        android:text="@string/checkbox_question"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="258dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/turtleCheckbox"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

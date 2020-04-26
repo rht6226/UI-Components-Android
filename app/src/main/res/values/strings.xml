@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UI Components</string>
+    <string name="attending">Are You Attending?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO !</string>
+    <string name="maybe">Maybe</string>
+    <string name="submit">Submit Response</string>
+    <string name="pain">How Much Pain do You feel on a scale of 1-10?</string>
+    <string name="checkbox_question">What types of pets do you own?</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="bunny">Bunny</string>
+    <string name="turtle">Turtle</string>
+    <string name="alert_question">Are you sure that you want to exit?</string>
+    <string name="alert_title">Exit Dialog</string>
+    <string name="exit_button">Click to Exit App</string>
+</resources>
